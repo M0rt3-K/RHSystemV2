@@ -32,6 +32,18 @@ body {
   box-shadow: 4px 4px 0px 0px rgb(107, 27, 27);
 }
 
+.login02{
+  margin-top: 10px;
+  margin-left: 5px;
+  outline: none;
+  padding: 6px;
+  border-radius: 8px;
+  border: none;
+  font-size: large;
+  text-align: center;
+  box-shadow: 4px 4px 0px 0px rgb(107, 27, 27);
+}
+
 input, select {
   margin-top: 10px;
   outline: none;
@@ -149,6 +161,14 @@ th {
   border-top: transparent;
   text-align: center;
   padding: 8px;
+}
+
+.login01{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
 }
 
 tr:nth-child(even) {
