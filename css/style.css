@@ -147,15 +147,13 @@ td,
 th {
   border: 1px solid brown;
   border-top: transparent;
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
 tr:nth-child(even) {
   background-color: brown;
 }
-
-
 
 .add02{
   left: 100px;
