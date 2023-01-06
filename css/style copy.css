@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.cabeca {
+  background-color: brown;
+  color: white;
+  text-align: left;
+  box-shadow: 0px 4px rgb(107, 27, 27);
+}
+
+#titulo {
+  margin-left: 10px;
+}
+
+body {
+  background-color: rgb(196, 160, 113);
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+}
+
+.login {
+  background-color: brown;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-top: 20px;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  text-align: center;
+  box-shadow: 4px 4px 0px 0px rgb(107, 27, 27);
+}
+
+input {
+  margin-top: 10px;
+  outline: none;
+  padding: 6px;
+  border-radius: 8px;
+  border: none;
+  font-size: large;
+  text-align: center;
+  box-shadow: 4px 4px 0px 0px rgb(107, 27, 27);
+}
+
+select {
+  margin-top: 10px;
+  outline: none;
+  padding: 6px;
+  border-radius: 8px;
+  border: none;
+  font-size: large;
+  text-align: center;
+  box-shadow: 4px 4px 0px 0px rgb(107, 27, 27);
+}
+
+.btne {
+  width: 95%;
+  margin-top: 10px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 160, 36);
+  outline: none;
+  border: none;
+  font-size: large;
+  transition: ease-in, 0.1s;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0px 0px rgb(107, 27, 27);
+}
+
+.btne:hover {
+  background-color: chocolate;
+  cursor: pointer;
+  color: white;
+  font-size: large;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.btns {
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 160, 36);
+  outline: none;
+  border: none;
+  font-size: large;
+  transition: ease-in, 0.1s;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0px 0px rgb(107, 27, 27);
+  display: table;
+  margin-top: -43px;
+  margin-right: 10px;
+  width: 5%;
+}
+
+.btns:hover {
+  background-color: rgb(210, 30, 30);
+  cursor: pointer;
+  color: white;
+  font-size: large;
+}
+
+.btna {
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(54, 255, 36, 0.836);
+  outline: none;
+  border: none;
+  font-size: large;
+  transition: ease-in, 0.1s;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0px 0px rgb(107, 27, 27);
+  display: table;
+  margin-top: -43px;
+  margin-right: 90px;
+  width: 10%;
+}
+
+.btna:hover {
+  background-color: rgba(30, 210, 30, 0.822);
+  cursor: pointer;
+  color: white;
+  font-size: large;
+}
+
+.dados {
+  background-color: brown;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-top: 20px;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  text-align: center;
+  box-shadow: 4px 4px 0px 0px rgb(107, 27, 27);
+  display: grid;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.datas {
+  background-color: rgb(100, 22, 22);
+  display: grid;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 4px;
+}
+
+td,
+th {
+  border: 1px solid brown;
+  border-top: transparent;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: brown;
+}

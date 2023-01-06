@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RH System</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/js.js"></script>
+  </head>
+  <body>
+    <div class="cabeca">
+      <h1 id="titulo">RH System</h1>
+    </div>
+    <form action="/table.html" method="get">
+      <main>
+        <div class="corpo">
+          <div class="login">
+            <h2>Entrar no sistema</h2>
+            <input
+              id="cpf"
+              type="text"
+              placeholder="Digite seu CPF..."
+              oninput="mascara(this)"
+            />
+
+            <br />
+            
+            <input
+              id="senha"
+              type="password"
+              placeholder="Digite sua Senha..."
+              maxlength="12"
+            />
+            
+            <br />
+            
+            <button class="btne" type="submit">Entrar</button>
+          </div>
+        </div>
+      </main>
+    </form>
+  </body>
+</html>
